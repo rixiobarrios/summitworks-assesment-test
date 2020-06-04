@@ -1,0 +1,22 @@
+<!-- // PROGRAMMING QUESTION:
+//Q1. Write a JavaScript for loop that will iterate an array which contains mix negative and positive number. For each
+iteration, it will check if the current number is positive or negative, and display a message to the screen.
+// Input: [-2, 3, 4 - 6]
+// Sample Output:
+// "-2 is negative"
+// "3 is positive"
+// "4 is positive"
+// "-6 is negative" -->
+<script>
+    let array = [-2, 3, 4, -6];
+
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] < 0) {
+            console.log(`${array[i]} IS NEGATIVE`);
+        } else if (array[i] > 0) {
+            console.log(`${array[i]} IS POSITIVE`);
+        } else {
+            console.log(`${array[i]} IS ZERO`);
+        }
+    }
+</script>
